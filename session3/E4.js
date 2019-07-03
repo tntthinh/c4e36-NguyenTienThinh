@@ -9,6 +9,5 @@ for(i=0;i<=a.length;i++){
     console.log (a[i])
     if(b === a[i]){
         console.log("in positon")
-        console.log (a[i])
     }
 }
