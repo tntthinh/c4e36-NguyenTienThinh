@@ -31,8 +31,8 @@
 // stock: ${stock[food]} `);
 // })
 // let total = 0;
-// fruit.forEach((food, index) => {
-//     x = prices[food] * stock[food];
+// fruit.forEach((food,index) => {
+//     x = prices[food]*stock[food];
 //     console.log(`Value of ${food} = ${x}`);
 //     total += x;
 // })
