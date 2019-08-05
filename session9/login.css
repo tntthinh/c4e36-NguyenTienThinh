@@ -1,0 +1,95 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-image: url(http://www.sclance.com/wallpapers/windows-10-wallpapers-1920x1080/windows-10-wallpapers-1920x1080_684174.jpg);
+    background-size: cover;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form{
+    background-color:rgba(36, 123, 255,0.4);
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem
+}
+
+#avatar-login{
+    width: 200px;
+    height: 200px;
+    margin-top: -120px;
+}
+
+.login-input{
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 0.7rem;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box; 
+}
+
+.login-btn{
+    width: 30%;
+    height: 45px;
+    background-color: #ab3c09;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #ab3c09;
+    transition: 0.3s;
+}
+#div-btn{
+    width: 88%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-input{
+    width:70%;
+    display: flex;
+}
+
+.custom-icon{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#ques{
+    margin-top: -15px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.rem{
+    width: 40%;
+    color:#40081a;
+    font-size: 20px;
+}
+
+.ps{
+    margin-left: 50px;
+    font-style: italic;
+    text-decoration: none;
+}
+ .ps:hover{
+    color: whitesmoke;
+    transition: 0.3s;
+ }
