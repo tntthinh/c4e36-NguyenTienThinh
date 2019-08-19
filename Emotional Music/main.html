@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="main.css">
     <title>Emotional Music</title>
 </head>
-    <h1>Emotional Music</h1>
 <body>
+    
     <div id= "container">
-        <form id = "selectEmotion">
+        <div id = "selectEmotion">
             <select id="genres">
                 <option value="US/UK">US/UK</option>
                 <option value="Vpop">Vpop</option>
             </select>
             <select id="emotion">
-                <option id = "happiness" value="happiness">Happiness Music</option>
-                <option id = "sadness"value="sadness">Sadness Music</option>
-                <option id = "inspirational"value="inspirational">Inspirational Music</option>
+                <option id = "happy" value="happy">Nhạc vui vẻ</option>
+                <option id = "sad"value="sad">Nhạc buồn</option>
+                <option id = "ins"value="ins">Nhạc truyền cảm hứng</option>
             </select>
-            <button id = "play">Play music</button>
-        </form>
+                
+        </div>
+        
     </div>
+    <form id = "show">
+            <button id = "play">Play music</button>
+            
+    </form>
+
     <script src="main.js"></script>
 </body>
 </html>
